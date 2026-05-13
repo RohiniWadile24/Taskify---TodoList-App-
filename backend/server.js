@@ -18,7 +18,13 @@ app.use(express.json());
 app.use(helmet());
 
 // Enable CORS
-app.use(cors());
+app.use(cors({
+  origin: ['https://taskify-todo-list-app-beta.vercel.app'],
+  methods: ['GET', 'POST', 'PUT', 'DELETE'],
+  credentials: true
+}));
+
+app.options('*', cors());
 
 // Rate limiting
 const rateLimit = require('express-rate-limit');
