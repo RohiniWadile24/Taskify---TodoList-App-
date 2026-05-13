@@ -24,7 +24,7 @@ app.use(cors({
   credentials: true
 }));
 
-app.options('*', cors());
+app.options(/.*/, cors());
 
 // Rate limiting
 const rateLimit = require('express-rate-limit');
