@@ -10,6 +10,17 @@ A modern, full-stack MERN (MongoDB, Express.js, React.js, Node.js) application d
 - **Premium UI/UX**: Built with custom, highly responsive, and beautiful CSS using glassmorphism and modern design principles.
 - **Protected Routes**: Secure frontend navigation.
 
+## 📸 Screenshots
+
+### Dashboard
+![Dashboard Screenshot](./screenshots/dashboard.png)
+
+### Login Page
+![Login Page Screenshot](./screenshots/login.png)
+
+### Register Page
+![Register Page Screenshot](./screenshots/register.png)
+
 ## 🛠️ Technology Stack
 - **Frontend**: React.js, Vite, Axios, React Router, Lucide React (Icons), React Toastify.
 - **Backend**: Node.js, Express.js, Mongoose.

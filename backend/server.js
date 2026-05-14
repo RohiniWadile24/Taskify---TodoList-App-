@@ -19,7 +19,7 @@ app.use(helmet());
 
 // Enable CORS
 app.use(cors({
-  origin: ['https://taskify-todo-list-app-beta.vercel.app'],
+  origin: ['https://taskify-todo-list-app-beta.vercel.app', 'http://localhost:5173'],
   methods: ['GET', 'POST', 'PUT', 'DELETE'],
   credentials: true
 }));
